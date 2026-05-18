@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MovieVerse - Streaming film terbaru, nonton trailer eksklusif, dan temukan ribuan film kualitas HD. Gratis!">
+    <meta name="keywords" content="film, movie, nonton film, streaming film, bioskop, trailer film, MovieVerse">
+    <meta name="author" content="MovieVerse">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="MovieVerse - Streaming Film Terbaru 2026">
+    <meta property="og:description" content="Nonton film favorit Anda dengan kualitas HD. Update setiap hari!">
+    <meta property="og:image" content="https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg">
+    <meta property="og:url" content="https://movieverse.vercel.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://movieverse.vercel.app">
+    <title>MovieVerse | Nonton Film Terbaru & Trailer Eksklusif 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎬</span>
+                <span class="logo-text">Movie<span class="logo-highlight">Verse</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-nav="home">Beranda</a>
+                <a href="#" class="nav-link" data-nav="trending">Trending</a>
+                <a href="#" class="nav-link" data-nav="now-playing">Now Playing</a>
+                <a href="#" class="nav-link" data-nav="top-rated">Top Rated</a>
+            </div>
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" placeholder="Cari film, series, atau aktor..." class="search-input">
+                <button id="searchBtn" class="search-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section dengan Background Gradient -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Dunia Film <span class="gradient-text">Tanpa Batas</span></h1>
+            <p class="hero-subtitle">Streaming ribuan film terbaik dari berbagai genre. Dari blockbuster Hollywood hingga film indie berkualitas. Nonton trailer eksklusif dan temukan rekomendasi film setiap hari.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" id="exploreBtn">
+                    <span>✨</span> Jelajahi Sekarang
+                </button>
+                <button class="btn-secondary" id="trailerBtn">
+                    <span>▶</span> Putar Trailer
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Film Koleksi</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Negara</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Streaming</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-card">
+                <img src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="Movie preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Title Dinamis -->
+    <div class="section-header">
+        <h2 class="section-title" id="dynamicTitle">🔥 Film Terpopuler Minggu Ini</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <!-- Movie Grid Container -->
+    <div class="movies-container">
+        <div id="movieGrid" class="movie-grid">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Memuat film keren...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Trailer -->
+    <div id="trailerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Memutar Trailer</h3>
+                <button class="modal-close" id="closeModalBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <iframe id="trailerIframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-icon">🎬</span>
+                <span>MovieVerse</span>
+            </div>
+            <p class="footer-text">© 2026 MovieVerse - Tempatnya pecinta film sejati. Semua konten trailer dari YouTube & TMDB.</p>
+            <div class="footer-links">
+                <a href="#">Tentang Kami</a>
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Hubungi Kami</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
