@@ -167,6 +167,15 @@ const MOVIES_DATABASE = [
         trailer_key: "sY1S34973zA",
         description: "Saga keluarga mafia Corleone di New York."
     }
+    { 
+        id: 19, 
+        title: "Avengers: Endgame", 
+        year: "2019", 
+        rating: 8.4, 
+        poster: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        trailer_key: "TcMBFSGVi1c",
+        description: "Para Avengers mengalahkan Thanos dalam pertempuran epik."
+    },
 ];
 
 // ==================== VARIABEL GLOBAL ====================
