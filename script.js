@@ -166,7 +166,7 @@ const MOVIES_DATABASE = [
         poster: "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
         trailer_key: "sY1S34973zA",
         description: "Saga keluarga mafia Corleone di New York."
-    }
+    },
     { 
         id: 19, 
         title: "Avengers: Endgame ", 
