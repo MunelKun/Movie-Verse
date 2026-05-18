@@ -169,7 +169,7 @@ const MOVIES_DATABASE = [
     }
     { 
         id: 19, 
-        title: "Avengers: Endgame", 
+        title: "Avengers: Endgame ", 
         year: "2019", 
         rating: 8.4, 
         poster: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
