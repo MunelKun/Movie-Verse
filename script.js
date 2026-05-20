@@ -181,7 +181,7 @@ const MOVIES_DATABASE = [
     title: "Mortal Kombat II",
     year: "2026",
     rating: 8.1,
-    poster: "https://image.tmdb.org/t/p/w500/3W7Rk8qKkE0qNqPzFfLwLkLkLkL.jpg",
+    poster: "https://media.themoviedb.org/t/p/w600_and_h900_face/lIsMeDbwntNXSUVHmWMMRXEZOVc.jpg",
     trailer_key: "b24oG7qCwp4",  // <--- GANTI DENGAN KODE INI
     description: "Cole Young kembali dengan pertarungan brutal antar alam. Sub-Zero, Scorpion, Liu Kang, dan petarung baru bertarung untuk menentukan nasib dunia."
     },
