@@ -176,6 +176,15 @@ const MOVIES_DATABASE = [
         trailer_key: "TcMBFSGVi1c",
         description: "Para Avengers mengalahkan Thanos dalam pertempuran epik."
     },
+    { 
+        id: 20, 
+        title: "Mortal Kombat II", 
+        year: "2026", 
+        rating: 8.1, 
+        poster: "https://image.tmdb.org/t/p/w500/3W7Rk8qKkE0qNqPzFfLwLkLkLkL.jpg",
+        trailer_key: "9E3p3lQlQlQ",
+        description: "FINISH HIM! Cole Young kembali dengan pertarungan brutal antar alam. Sub-Zero, Scorpion, Liu Kang, dan petarung baru bertarung untuk menentukan nasib dunia."
+    },
 ];
 
 // ==================== VARIABEL GLOBAL ====================
